@@ -80,10 +80,10 @@ public final class FdicQuery {
             parameters.put("offset", String.valueOf(offset));
 
             if (sortBy != null) {
-                parameters.put("sortBy", sortBy);
+                parameters.put("sort_by", sortBy);
             }
             if (sortOrder != null) {
-                parameters.put("sortOrder", sortOrder.name());
+                parameters.put("sort_order", sortOrder.name());
             }
             parameters.put("format", "json");
             parameters.put("download", "false");
